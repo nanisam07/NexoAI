@@ -1,0 +1,39 @@
+export default function BentoGrid() {
+  return (
+    <section className="max-w-7xl mx-auto px-6 py-24">
+
+      <div className="grid md:grid-cols-3 gap-6">
+
+        <div className="glass rounded-3xl p-8 md:col-span-2 min-h-[300px]">
+          <h2 className="text-3xl font-bold">
+            AI Learning Paths
+          </h2>
+
+          <p className="text-gray-400 mt-4">
+            Personalized roadmaps generated
+            using your career goals.
+          </p>
+        </div>
+
+        <div className="glass rounded-3xl p-8 min-h-[300px]">
+          <h2 className="text-3xl font-bold">
+            Smart Dashboard
+          </h2>
+        </div>
+
+        <div className="glass rounded-3xl p-8 min-h-[300px]">
+          <h2 className="text-3xl font-bold">
+            Live Classes
+          </h2>
+        </div>
+
+        <div className="glass rounded-3xl p-8 md:col-span-2 min-h-[300px]">
+          <h2 className="text-3xl font-bold">
+            AI Mentor Assistant
+          </h2>
+        </div>
+
+      </div>
+    </section>
+  );
+}
